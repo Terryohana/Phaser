@@ -1,0 +1,161 @@
+{
+    "anims": [
+        {
+            "key": "down-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_2323",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "up-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_022",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "down-walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_2424",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_2323",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "up-walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_044",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "right-walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_1313",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_1212",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_1111",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "left-walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_1616",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_1414",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player_1515",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "right-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_1111",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "left-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player_1414",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

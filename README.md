@@ -43,4 +43,4 @@ If Phaser Editor 2D Core is globally installed, you can run:
 
 ```bash
 $ PhaserEditor2D -project .
-```
+```# Phaser

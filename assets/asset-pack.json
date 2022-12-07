@@ -5,6 +5,71 @@
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+                "url": "assets/player_011.png",
+                "type": "image",
+                "key": "player_011"
+            },
+            {
+                "url": "assets/player_022.png",
+                "type": "image",
+                "key": "player_022"
+            },
+            {
+                "url": "assets/player_033.png",
+                "type": "image",
+                "key": "player_033"
+            },
+            {
+                "url": "assets/player_044.png",
+                "type": "image",
+                "key": "player_044"
+            },
+            {
+                "url": "assets/player_1111.png",
+                "type": "image",
+                "key": "player_1111"
+            },
+            {
+                "url": "assets/player_1212.png",
+                "type": "image",
+                "key": "player_1212"
+            },
+            {
+                "url": "assets/player_1313.png",
+                "type": "image",
+                "key": "player_1313"
+            },
+            {
+                "url": "assets/player_1414.png",
+                "type": "image",
+                "key": "player_1414"
+            },
+            {
+                "url": "assets/player_1515.png",
+                "type": "image",
+                "key": "player_1515"
+            },
+            {
+                "url": "assets/player_1616.png",
+                "type": "image",
+                "key": "player_1616"
+            },
+            {
+                "url": "assets/player_2323.png",
+                "type": "image",
+                "key": "player_2323"
+            },
+            {
+                "url": "assets/player_2424.png",
+                "type": "image",
+                "key": "player_2424"
+            },
+            {
+                "url": "assets/player-animations.json",
+                "type": "animation",
+                "key": "player-animations"
             }
         ]
     },
@@ -12,6 +77,7 @@
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }
