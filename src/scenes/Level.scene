@@ -222,6 +222,15 @@
             "originY": 0.5,
             "text": "45",
             "fontSize": "48px"
+        },
+        {
+            "type": "Text",
+            "id": "28b01b4a-fbf0-4156-b390-8e7731b3d297",
+            "label": "Terry Ohannah Memory Game",
+            "components": [],
+            "x": 272,
+            "y": 16,
+            "text": "Terry Ohannah Memory Game"
         }
     ],
     "plainObjects": [],

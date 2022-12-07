@@ -60,6 +60,10 @@ class Level extends Phaser.Scene {
 		countdownText.text = "45";
 		countdownText.setStyle({ "fontSize": "48px" });
 
+		// Terry Ohannah Memory Game
+		const terry_Ohannah_Memory_Game = this.add.text(272, 16, "", {});
+		terry_Ohannah_Memory_Game.text = "Terry Ohannah Memory Game";
+
 		// lists
 		const boxes = [crate_06_1_3, crate_06_1_5, crate_06_1_4, crate_06_1_6, crate_06_1, crate_06_1_1, crate_06_1_2, crate_06, crate_06_1_7];
 
