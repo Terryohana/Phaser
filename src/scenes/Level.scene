@@ -2,6 +2,7 @@
     "id": "01aefa93-6044-4159-8358-7e91310aa05f",
     "sceneType": "SCENE",
     "settings": {
+        "snapEnabled": true,
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
         "sceneKey": "Level"
@@ -12,12 +13,215 @@
             "id": "f501013d-ce21-4bb9-bd5d-015999deb277",
             "label": "player",
             "scope": "CLASS",
-            "components": [],
+            "components": [
+                "Physics",
+                "Movment",
+                "DepthSortY",
+                "Action"
+            ],
+            "Physics.width": 40,
+            "Physics.height": 16,
+            "Physics.offsetX": 12,
+            "Physics.offsetY": 38,
             "texture": {
                 "key": "player_2323"
             },
-            "x": 356,
-            "y": 276
+            "x": 384,
+            "y": 288
+        },
+        {
+            "type": "Image",
+            "id": "4a6982a6-2b1e-4f31-9585-0be6197b755a",
+            "label": "crate_06",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "parrot",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 752,
+            "y": 192
+        },
+        {
+            "type": "Image",
+            "id": "eb017e97-1e41-4355-bf98-b3cbfa613e56",
+            "label": "crate_06_1",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "chicken",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 48,
+            "y": 176
+        },
+        {
+            "type": "Image",
+            "id": "6311917b-562c-4f17-b496-8e93db9e7200",
+            "label": "crate_06_1_1",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "penguin",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 384,
+            "y": 416
+        },
+        {
+            "type": "Image",
+            "id": "38a4f747-60ba-403d-b87f-0b28c7d8daba",
+            "label": "crate_06_1_2",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 384,
+            "y": 192
+        },
+        {
+            "type": "Image",
+            "id": "f53629a0-5c65-44c3-b97e-592256729810",
+            "label": "crate_06_1_3",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "duck",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 384,
+            "y": 560
+        },
+        {
+            "type": "Image",
+            "id": "cdeabaac-a654-44e6-86e2-a4cc94a51756",
+            "label": "crate_06_1_4",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "penguin",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 208,
+            "y": 320
+        },
+        {
+            "type": "Image",
+            "id": "f0fa2aaa-40b2-4cfd-ab47-288a75005568",
+            "label": "crate_06_1_5",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "duck",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 560,
+            "y": 320
+        },
+        {
+            "type": "Image",
+            "id": "3eb55fa3-dc7b-4701-88d0-e197a16eae67",
+            "label": "crate_06_1_6",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "chicken",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 128,
+            "y": 512
+        },
+        {
+            "type": "Image",
+            "id": "0ac363e3-d894-42c8-9a5c-d06ac6b2a353",
+            "label": "crate_06_1_7",
+            "components": [
+                "Physics",
+                "DepthSortY",
+                "ItemHolder"
+            ],
+            "Physics.static": true,
+            "Physics.width": 64,
+            "Physics.height": 32,
+            "Physics.offsetY": 32,
+            "ItemHolder.itemName": "parrot",
+            "texture": {
+                "key": "crate_06"
+            },
+            "x": 688,
+            "y": 512
+        },
+        {
+            "type": "Text",
+            "id": "f0ebf08c-1f7c-45d5-9b8c-e64e62bfd106",
+            "label": "countdownText",
+            "scope": "CLASS",
+            "components": [
+                "Countdown"
+            ],
+            "x": 384,
+            "y": 80,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "45",
+            "fontSize": "48px"
         }
     ],
     "plainObjects": [],
@@ -26,5 +230,24 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 3
-    }
+    },
+    "lists": [
+        {
+            "id": "0adfadd8-2107-490f-baeb-6065897d1378",
+            "label": "boxes",
+            "objectIds": [
+                "0f91525a-1f72-4371-8035-5a6f1d6cadf8",
+                "248ddad1-229e-4f7d-b9f0-7702912ea087",
+                "f53629a0-5c65-44c3-b97e-592256729810",
+                "f0fa2aaa-40b2-4cfd-ab47-288a75005568",
+                "cdeabaac-a654-44e6-86e2-a4cc94a51756",
+                "3eb55fa3-dc7b-4701-88d0-e197a16eae67",
+                "eb017e97-1e41-4355-bf98-b3cbfa613e56",
+                "6311917b-562c-4f17-b496-8e93db9e7200",
+                "38a4f747-60ba-403d-b87f-0b28c7d8daba",
+                "4a6982a6-2b1e-4f31-9585-0be6197b755a",
+                "0ac363e3-d894-42c8-9a5c-d06ac6b2a353"
+            ]
+        }
+    ]
 }

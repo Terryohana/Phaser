@@ -2,9 +2,90 @@
     "section1": {
         "files": [
             {
+                "url": [
+                    "components/Action.js"
+                ],
+                "type": "scripts",
+                "key": "Action"
+            },
+            {
+                "url": "assets/bear.png",
+                "type": "image",
+                "key": "bear"
+            },
+            {
+                "url": "assets/chicken.png",
+                "type": "image",
+                "key": "chicken"
+            },
+            {
+                "url": [
+                    "components/Countdown.js"
+                ],
+                "type": "scripts",
+                "key": "Countdown"
+            },
+            {
+                "url": "assets/crate_03.png",
+                "type": "image",
+                "key": "crate_03"
+            },
+            {
+                "url": "assets/crate_04.png",
+                "type": "image",
+                "key": "crate_04"
+            },
+            {
+                "url": "assets/crate_05.png",
+                "type": "image",
+                "key": "crate_05"
+            },
+            {
+                "url": "assets/crate_06.png",
+                "type": "image",
+                "key": "crate_06"
+            },
+            {
+                "url": [
+                    "components/DepthSortY.js"
+                ],
+                "type": "scripts",
+                "key": "DepthSortY"
+            },
+            {
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+                "url": "assets/duck.png",
+                "type": "image",
+                "key": "duck"
+            },
+            {
+                "url": [
+                    "components/ItemHolder.js"
+                ],
+                "type": "scripts",
+                "key": "ItemHolder"
+            },
+            {
+                "url": [
+                    "components/Movment.js",
+                    "components/Physics.js"
+                ],
+                "type": "scripts",
+                "key": "Movment"
+            },
+            {
+                "url": "assets/parrot.png",
+                "type": "image",
+                "key": "parrot"
+            },
+            {
+                "url": "assets/penguin.png",
+                "type": "image",
+                "key": "penguin"
             },
             {
                 "url": "assets/player_011.png",
